@@ -1,0 +1,115 @@
+body{
+
+  background-color: #FFDCDC;
+  margin: 0px;
+/*  padding: 7% 15%;*/
+
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color: #b34180;
+  color: #fff;
+  text-align: center;
+}
+
+#navbar{
+  background-color: #e36bae;
+  color: #fff;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+#navbar li{
+  display: inline
+
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+.headings{
+  color:#b34180;
+}
+
+.container-fluid{
+  padding: 2% 15%;
+}
+
+.container-fluidii{
+  padding: 2% 35%;
+}
+
+.containerfluidiii{
+  padding: 2% 15%;
+}
+
+.imagetwo{
+  height: 200px;
+  transform: rotate(25deg);
+}
+
+.containerfluidiv{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.containerfluidv{
+  text-align: center;
+  background-color: #b34180;
+  padding: 20px;
+  margin: 0px;
+
+}
+
+.heading1{
+  color: #b34180;
+}
+
+.heading2{
+  text-align: center;
+  color: #b34180;
+}
+
+.heading3{
+  text-align: center;
+  color:#b34180 ;
+}
+
+.icon{
+  size:3rem;
+
+  color:#b34180;
+}
+
+.feature-box{
+  text-align: center;
+
+}
+
+ol{
+  list-style: none;
+  text-align: center;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #ff9292;
+  border-width: 5px;
+  width: 40%;
+}
