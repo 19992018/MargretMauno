@@ -12,6 +12,14 @@ body{
   overflow: hidden;
 }
 
+.navigation-bars{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 20%;
+}
+
 #main-header{
   background-color: #b34180;
   color: #fff;
@@ -48,6 +56,7 @@ body{
 
 .container-fluid{
   padding: 2% 15%;
+  margin-top: 10%;
 }
 
 .container-fluidii{
