@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta charset="utf-8"> -->
     <title>Maggie's bomb Website</title>
     <link rel="stylesheet" href="css/styles.css">
 
@@ -9,25 +10,27 @@
       <script src="https://kit.fontawesome.com/d8569f67c6.js" crossorigin="anonymous"></script>
   </head>
   <body>
+<div class="navigation-bars">
+  <header id="main-header">
+    <div class="container">
+      <h1>Maggie's bomb website</h1>
+    </div>
+  </header>
 
-    <header id="main-header">
-      <div class="container">
-        <h1>Maggie's bomb website</h1>
-      </div>
-    </header>
+  <nav id="navbar">
+    <div class="container">
+      <ul>
+    <li>  <a href="#home">Home</a> </li>
+    <li> <a href="#about">About</a> </li>
+    <li> <a href="#contact">Contact</a> </li>
+      </ul>
+    </div>
+  </nav>
 
-    <nav id="navbar">
-      <div class="container">
-        <ul>
-      <li>  <a href="#">Home</a> </li>
-      <li> <a href="#">About</a> </li>
-      <li> <a href="#">Services</a> </li>
-      <li> <a href="#">Contact</a> </li>
-        </ul>
-      </div>
-    </nav>
+</div>
 
-    <div class="container-fluid">
+
+    <!-- <div class="container-fluid">
 
 
     <table cellspacing="20">
@@ -36,7 +39,7 @@
         <h1 class="headings">A short story about Maggy</h1>
 
         <p>
-          Maggie, aka Kahawa Flavour, aka Mauno Precious Margret, is a fun-loving 21-year-old who
+          Maggie, aka Kahawa Flavour, aka Mauno Precious Margret, is a fun-loving 23-year-old who
           was born and raised in Kenya. As you can tell from her name (Kahawa Flavour), she is a coffee-lover.
           Well not the conc and hair-raisingly bitter type, but the sweet type, like Vanilla Latte😋😋😋.
           She is also into horse-riding and song-writing. Currently, she is venturing into music production and
@@ -48,7 +51,32 @@
         <p>WARNING: She spills emojis like she's being paid. But she'll try to contain herself on this website.😂💯💯</p>
       </td>
     </table>
-      </div>
+      </div> -->
+
+      <div class="container-fluid" id="home">
+
+        <img height="200px" src="images/picture1.jpg" alt="aBombPictureOfMaggie">
+
+        <div class="wordings">
+
+          <h1 class="headings">A short story about Maggie</h1>
+
+          <p>
+            Maggie, a.k.a Kahawa Flavour, a.k.a Mauno Precious Margret, is a fun-loving 23-year-old who
+            was born and raised in Kenya. As you can tell from her name (Kahawa Flavour), she is a coffee-lover.
+            Well not the conc and bitter type, but the sweet type, like Vanilla Latte😋😋😋.
+            She is also into horse-riding and song-writing. Currently, she is venturing into music production and
+            web-design. She also aspires to play golf (rich auntie manenoz😌😂).
+          </p>
+
+          <br>
+
+          <p>WARNING: She spills emojis like she's being paid. But she'll try to contain herself on this website.😂💯💯</p>
+        </div>
+
+
+
+        </div>
 
 
 
@@ -63,7 +91,7 @@
 
     <hr>
 
-    <div class="containerfluidiii">
+    <div class="containerfluidiii" id="about">
 
       <h1 class="heading2">Know Me In A Minute</h1>
       <h2 class="heading3">This or that?</h2>
@@ -85,13 +113,47 @@
 
     <hr>
 
+      <div class="containerfluidiii" id="about">
+        <h1 class="heading2">How well do you know me?</h1>
+        <h2 class="heading3">This or that?</h2>
 
-    <div class="containerfluidiv">
+        <input type="radio" name="q1">Dog
+        <span> <strong>OR</strong> </span>
+        <input type="radio" name="q1" id="corr1">Cat <br>
+
+        <input type="radio" name="q2">Netflx
+        <span> <strong>OR</strong> </span>
+        <input type="radio" name="q2" id="corr2">Youtube <br>
+
+        <input type="radio" name="q3" id="corr3">Cardio
+        <span> <strong>OR</strong> </span>
+        <input type="radio" name="q3">Weights <br>
+
+        <input type="radio" name="q4">iOS
+        <span> <strong>OR</strong> </span>
+        <input type="radio" name="q4" id="corr4">Android <br>
+
+
+        <input type="radio" name="q5">Podcasts
+        <span> <strong>OR</strong> </span>
+        <input type="radio" name="q5" id="corr5">Music
+        <span>(While walking) </span> <br>
+
+<input type="submit" name="submit" value="Submit" onclick="result()">
+
+<div class="popup hide">
+  <p class="message">Do the quiz first.</p>
+</div>
+
+          </div>
+
+
+    <div class="containerfluidiv" id="contact">
 
       <h1>Let's chat</h1>
       <div class="feature-box">
         <i class="icon fab fa-instagram"></i>
-        <p>kahawa_flavour</p>
+        <p><a class="instagram-link" href="https://www.instagram.com/kahawa_flavour/?hl=en">kahawa_flavour</a></p>
       </div>
       <br>
       <div class="feature-box">
@@ -113,14 +175,16 @@
 <footer>
   <div class="containerfluidv">
 
-    <p>Copyright &copy; Mauno Precious Margret 2021 </p>
+    <p class="mobile-footer">Copyright &copy; Mauno Precious Margret 2022 </p>
 
   </div>
 
 </footer>
 
 
+<script src="index.js" type="text/javascript">
 
+</script>
 
   </body>
 </html>

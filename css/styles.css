@@ -2,6 +2,8 @@ body{
 
   background-color: #FFDCDC;
   margin: 0px;
+  font-size: calc(15px + 0.390625vw);
+
 /*  padding: 7% 15%;*/
 
 }
@@ -46,7 +48,7 @@ body{
 #navbar a{
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  /* font-size: 18px; */
   padding-right: 15px;
 }
 
@@ -54,9 +56,33 @@ body{
   color:#b34180;
 }
 
+
+
 .container-fluid{
-  padding: 2% 15%;
-  margin-top: 10%;
+  width:80%;
+  margin-top: 20%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20%;
+}
+
+
+
+.wordings{
+  float: right;
+  width:70%;
+  margin-bottom: 30px;
+
+}
+
+img{
+  float: left;
+  width: 25%;
+  margin-right: 10px;
+  height: 90%;
+
+
 }
 
 .container-fluidii{
@@ -105,6 +131,13 @@ body{
   color:#b34180;
 }
 
+.instagram-link{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
 .feature-box{
   text-align: center;
 
@@ -121,4 +154,78 @@ hr{
   border-color: #ff9292;
   border-width: 5px;
   width: 40%;
+}
+
+@media screen and (max-device-width:600px), screen and (max-width: 600px)  {
+
+  /* body{
+    background-color: red;
+  } */
+
+  #navbar a{
+    color: #fff;
+    text-decoration: none;
+    /* font-size: 36px;  */
+    padding-right: 15px;
+
+  }
+
+  #navbar li{
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .container-fluid{
+    width:80%;
+    margin-top: 40%;
+  }
+
+  img{
+    width: 100%;
+    margin: auto;
+    float: none;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .wordings{
+    width: 100%;
+    margin:auto;
+    float: none;
+
+  }
+
+  .headings{
+    text-align: center;
+  }
+
+  .mobile-footer{
+    font-size: 7px;
+  }
+
+  #main-header{
+    font-size:
+  }
+
+}
+
+.popup.hide{
+    display: none;
+}
+
+@media screen and (max-device-width:480px), screen and (max-width: 480px)  {
+  #navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    padding-right: 15px;
+
+  }
+
+  #main-header{
+    background-color: #b34180;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+  }
 }
